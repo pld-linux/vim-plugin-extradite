@@ -1,5 +1,5 @@
 %define		plugin	extradite
-%define		snap	20160809
+%define		snap	20190907
 Summary:	Vim plugin: A git commit browser
 Name:		vim-plugin-%{plugin}
 Version:	1.1
@@ -7,7 +7,7 @@ Release:	0.%{snap}.1
 License:	Vim
 Group:		Applications/Editors/Vim
 Source0:	vim-extradite-%{snap}.tar.gz
-# Source0-md5:	be251b0ae8b2425775e5180f7b5de5a8
+# Source0-md5:	cd80ddb0a20f4171767956ca722a422a
 URL:		http://int3.github.io/vim-extradite/
 Requires:	vim-plugin-fugitive
 Requires:	vim-rt >= 4:7.4.0
